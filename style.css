@@ -3,3 +3,82 @@
     padding: 0;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
+ol, ul, li{
+    list-style: none;
+}
+body{
+    padding: 15px 30px;
+    display: flex;
+    background-color: black;
+    
+}
+main{
+    background-color: tomato;
+}
+header{
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.topo{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 5vh;
+    transition: 1s;
+}
+.topo:hover{
+    font-size: 20px;
+}
+.topo2{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 5vh;
+    transition: 1s;
+}
+.topo2:hover:hover{
+    font-size: 20px;
+}
+.topo3{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 5vh;
+    transition: 1s;
+}
+.topo3:hover{
+    font-size: 20px;
+}
+.topo4{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 5vh;
+    transition: 1s;
+}
+.topo4:hover{
+    font-size: 20px;
+}
+.topo5{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 5vh;
+    transition: 1s;
+}
+.topo5:hover{
+    font-size: 20px;
+}
+.topo6{
+    display: flex;
+    gap: 25px;
+}
