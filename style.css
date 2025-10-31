@@ -13,6 +13,7 @@ ol, ul, li{
 body{
     padding: 15px 30px;
     display: flex;
+    flex-direction: column;
     background-color: black;
     
 }
@@ -20,65 +21,40 @@ main{
     background-color: tomato;
 }
 header{
-    width: 100%;
     border-radius: 10px;
     background-color: white;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.primeiraCaixa{
+    display: flex;
+    align-items: center;
+}
+.segundaCaixa{
+    display: flex;
+    gap: 70px;
+}
+.terceiraCaixa{
+    display: flex;
+    padding: 0px 10px 0px 0px;
+    gap: 20px;
+    align-items: center;
+}
+.barraPesquisa{
+    width: 20vw;
+    height: 4vh;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    align-items: center;
-    gap: 60px;
+    background-color: black;
+    border-radius: 10px;
+    gap: 20px;
+    
 }
-.topo{
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    height: 5vh;
-    transition: 1s;
+.barraPesquisa input{
+    background-color: black ;
 }
-.topo:hover{
-    font-size: 20px;
-}
-.topo2{
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    height: 5vh;
-    transition: 1s;
-}
-.topo2:hover:hover{
-    font-size: 20px;
-}
-.topo3{
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    height: 5vh;
-    transition: 1s;
-}
-.topo3:hover{
-    font-size: 20px;
-}
-.topo4{
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    height: 5vh;
-    transition: 1s;
-}
-.topo4:hover{
-    font-size: 20px;
-}
-.topo5{
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    height: 5vh;
-    transition: 1s;
-}
-.topo5:hover{
-    font-size: 20px;
-}
-.topo6{
-    display: flex;
-    gap: 25px;
+.barraPesquisa button{
+    background-color: black ;
 }
